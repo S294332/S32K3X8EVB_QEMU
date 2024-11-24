@@ -1,1 +1,1 @@
-/home/Antonello/Desktop/CAOS/pc-bios/skiboot.lid
+/home/Antonello/Desktop/S32K3X8EVB_QEMU/pc-bios/skiboot.lid

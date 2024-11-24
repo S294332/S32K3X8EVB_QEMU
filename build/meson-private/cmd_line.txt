@@ -5,5 +5,5 @@ prefix = /usr/local
 wrap_mode = nodownload
 
 [properties]
-native_file = ['/home/Antonello/Desktop/CAOS/build/config-meson.cross']
+native_file = ['/home/Antonello/Desktop/S32K3X8EVB_QEMU/build/config-meson.cross']
 

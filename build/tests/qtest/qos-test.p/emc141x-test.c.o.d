@@ -1,8 +1,10 @@
 tests/qtest/qos-test.p/emc141x-test.c.o: ../tests/qtest/emc141x-test.c \
  /usr/include/stdc-predef.h \
- /home/Antonello/Desktop/CAOS/include/qemu/osdep.h config-host.h \
- /home/Antonello/Desktop/CAOS/include/exec/poison.h config-poison.h \
- /home/Antonello/Desktop/CAOS/include/qemu/compiler.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/osdep.h \
+ config-host.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/exec/poison.h \
+ config-poison.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
@@ -109,9 +111,9 @@ tests/qtest/qos-test.p/emc141x-test.c.o: ../tests/qtest/emc141x-test.c \
  /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  linux-headers/asm/bitsperlong.h \
- /home/Antonello/Desktop/CAOS/linux-headers/asm-generic/bitsperlong.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/linux-headers/asm-generic/bitsperlong.h \
  /usr/include/linux/posix_types.h \
- /home/Antonello/Desktop/CAOS/linux-headers/linux/stddef.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/linux-headers/linux/stddef.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h \
@@ -147,7 +149,7 @@ tests/qtest/qos-test.p/emc141x-test.c.o: ../tests/qtest/emc141x-test.c \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h \
  /usr/include/x86_64-linux-gnu/bits/types/idtype_t.h \
- /home/Antonello/Desktop/CAOS/include/glib-compat.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/glib-compat.h \
  /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
  /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
@@ -229,7 +231,7 @@ tests/qtest/qos-test.p/emc141x-test.c.o: ../tests/qtest/emc141x-test.c \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
  /usr/include/glib-2.0/glib-unix.h /usr/include/glib-2.0/glib/gstdio.h \
  /usr/include/glib-2.0/glib/gprintf.h /usr/include/pwd.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/os-posix.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/os-posix.h \
  /usr/include/x86_64-linux-gnu/sys/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
@@ -252,18 +254,18 @@ tests/qtest/qos-test.p/emc141x-test.c.o: ../tests/qtest/emc141x-test.c \
  /usr/include/x86_64-linux-gnu/sys/un.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
- /home/Antonello/Desktop/CAOS/include/qemu/typedefs.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/typedefs.h \
  ../tests/qtest/libqtest-single.h ../tests/qtest/libqtest.h \
- /home/Antonello/Desktop/CAOS/include/qapi/qmp/qobject.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/qmp/qobject.h \
  qapi/qapi-builtin-types.h \
- /home/Antonello/Desktop/CAOS/include/qapi/util.h \
- /home/Antonello/Desktop/CAOS/include/qapi/qmp/qdict.h \
- /home/Antonello/Desktop/CAOS/include/qemu/queue.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/util.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/qmp/qdict.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/queue.h \
  ../tests/qtest/libqmp.h ../tests/qtest/libqos/qgraph.h \
  /usr/include/glib-2.0/gmodule.h \
  /usr/include/glib-2.0/gmodule/gmodule-visibility.h \
- /home/Antonello/Desktop/CAOS/include/qemu/module.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/module.h \
  ../tests/qtest/libqos/libqos-malloc.h \
  ../tests/qtest/libqos/../libqtest.h ../tests/qtest/libqos/i2c.h \
  ../tests/qtest/libqos/qgraph.h \
- /home/Antonello/Desktop/CAOS/include/hw/sensor/emc141x_regs.h
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/sensor/emc141x_regs.h

@@ -18,7 +18,7 @@ tests/fp/libsoftfloat.a.p/berkeley-softfloat-3_source_f128M_to_ui64.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h ../tests/fp/platform.h \
- /home/Antonello/Desktop/CAOS/include/qemu/compiler.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/compiler.h \
  ../tests/fp/berkeley-softfloat-3/source/include/internals.h \
  ../tests/fp/berkeley-softfloat-3/source/include/primitives.h \
  ../tests/fp/berkeley-softfloat-3/source/include/primitiveTypes.h \

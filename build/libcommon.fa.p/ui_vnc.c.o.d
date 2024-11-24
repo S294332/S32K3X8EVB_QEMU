@@ -1,7 +1,9 @@
 libcommon.fa.p/ui_vnc.c.o: ../ui/vnc.c /usr/include/stdc-predef.h \
- /home/Antonello/Desktop/CAOS/include/qemu/osdep.h config-host.h \
- /home/Antonello/Desktop/CAOS/include/exec/poison.h config-poison.h \
- /home/Antonello/Desktop/CAOS/include/qemu/compiler.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/osdep.h \
+ config-host.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/exec/poison.h \
+ config-poison.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
@@ -108,9 +110,9 @@ libcommon.fa.p/ui_vnc.c.o: ../ui/vnc.c /usr/include/stdc-predef.h \
  /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  linux-headers/asm/bitsperlong.h \
- /home/Antonello/Desktop/CAOS/linux-headers/asm-generic/bitsperlong.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/linux-headers/asm-generic/bitsperlong.h \
  /usr/include/linux/posix_types.h \
- /home/Antonello/Desktop/CAOS/linux-headers/linux/stddef.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/linux-headers/linux/stddef.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h \
@@ -146,7 +148,7 @@ libcommon.fa.p/ui_vnc.c.o: ../ui/vnc.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h \
  /usr/include/x86_64-linux-gnu/bits/types/idtype_t.h \
- /home/Antonello/Desktop/CAOS/include/glib-compat.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/glib-compat.h \
  /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
  /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
@@ -228,7 +230,7 @@ libcommon.fa.p/ui_vnc.c.o: ../ui/vnc.c /usr/include/stdc-predef.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
  /usr/include/glib-2.0/glib-unix.h /usr/include/glib-2.0/glib/gstdio.h \
  /usr/include/glib-2.0/glib/gprintf.h /usr/include/pwd.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/os-posix.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/os-posix.h \
  /usr/include/x86_64-linux-gnu/sys/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
@@ -251,115 +253,120 @@ libcommon.fa.p/ui_vnc.c.o: ../ui/vnc.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/sys/un.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
- /home/Antonello/Desktop/CAOS/include/qemu/typedefs.h ../ui/vnc.h \
- /home/Antonello/Desktop/CAOS/include/qemu/queue.h \
- /home/Antonello/Desktop/CAOS/include/qemu/thread.h \
- /home/Antonello/Desktop/CAOS/include/qemu/processor.h \
- /home/Antonello/Desktop/CAOS/include/qemu/atomic.h \
- /home/Antonello/Desktop/CAOS/include/qemu/compiler.h \
- /home/Antonello/Desktop/CAOS/include/qemu/clang-tsa.h \
- /home/Antonello/Desktop/CAOS/include/qemu/thread-posix.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/typedefs.h \
+ ../ui/vnc.h /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/queue.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/thread.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/processor.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/atomic.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/compiler.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/clang-tsa.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/thread-posix.h \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /home/Antonello/Desktop/CAOS/include/qemu/qsp.h \
- /home/Antonello/Desktop/CAOS/include/ui/clipboard.h \
- /home/Antonello/Desktop/CAOS/include/qemu/notify.h \
- /home/Antonello/Desktop/CAOS/include/ui/console.h \
- /home/Antonello/Desktop/CAOS/include/ui/qemu-pixman.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/qsp.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/ui/clipboard.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/notify.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/ui/console.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/ui/qemu-pixman.h \
  /usr/include/pixman-1/pixman.h /usr/include/pixman-1/pixman-version.h \
- /home/Antonello/Desktop/CAOS/include/qom/object.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qom/object.h \
  qapi/qapi-builtin-types.h \
- /home/Antonello/Desktop/CAOS/include/qapi/util.h \
- /home/Antonello/Desktop/CAOS/include/qemu/module.h qapi/qapi-types-ui.h \
- qapi/qapi-types-common.h qapi/qapi-types-sockets.h \
- /home/Antonello/Desktop/CAOS/audio/audio.h qapi/qapi-types-audio.h \
- /home/Antonello/Desktop/CAOS/include/hw/qdev-properties.h \
- /home/Antonello/Desktop/CAOS/include/hw/qdev-core.h \
- /home/Antonello/Desktop/CAOS/include/qemu/bitmap.h \
- /home/Antonello/Desktop/CAOS/include/qemu/bitops.h \
- /home/Antonello/Desktop/CAOS/include/qemu/host-utils.h \
- /home/Antonello/Desktop/CAOS/include/qemu/bswap.h \
- /home/Antonello/Desktop/CAOS/include/qemu/int128.h \
- /home/Antonello/Desktop/CAOS/include/qemu/atomic.h \
- /home/Antonello/Desktop/CAOS/include/qemu/rcu.h \
- /home/Antonello/Desktop/CAOS/include/qemu/sys_membarrier.h \
- /home/Antonello/Desktop/CAOS/include/qemu/coroutine-tls.h \
- /home/Antonello/Desktop/CAOS/include/qemu/rcu_queue.h \
- /home/Antonello/Desktop/CAOS/include/hw/hotplug.h \
- /home/Antonello/Desktop/CAOS/include/hw/resettable.h \
- /home/Antonello/Desktop/CAOS/include/hw/qdev-properties-system.h \
- /home/Antonello/Desktop/CAOS/include/crypto/tlssession.h \
- /home/Antonello/Desktop/CAOS/include/crypto/tlscreds.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/util.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/module.h \
+ qapi/qapi-types-ui.h qapi/qapi-types-common.h qapi/qapi-types-sockets.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/audio/audio.h \
+ qapi/qapi-types-audio.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/qdev-properties.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/qdev-core.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/bitmap.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/bitops.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/host-utils.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/bswap.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/int128.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/atomic.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/rcu.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/sys_membarrier.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/coroutine-tls.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/rcu_queue.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/hotplug.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/resettable.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/qdev-properties-system.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/crypto/tlssession.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/crypto/tlscreds.h \
  qapi/qapi-types-crypto.h \
- /home/Antonello/Desktop/CAOS/include/qemu/buffer.h \
- /home/Antonello/Desktop/CAOS/include/io/channel-socket.h \
- /home/Antonello/Desktop/CAOS/include/io/channel.h \
- /home/Antonello/Desktop/CAOS/include/qemu/coroutine-core.h \
- /home/Antonello/Desktop/CAOS/include/block/aio.h \
- /home/Antonello/Desktop/CAOS/include/qemu/event_notifier.h \
- /home/Antonello/Desktop/CAOS/include/qemu/timer.h \
- /home/Antonello/Desktop/CAOS/include/qemu/host-utils.h \
- /home/Antonello/Desktop/CAOS/include/block/graph-lock.h \
- /home/Antonello/Desktop/CAOS/include/io/task.h \
- /home/Antonello/Desktop/CAOS/include/qemu/sockets.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/buffer.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/io/channel-socket.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/io/channel.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/coroutine-core.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/aio.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/event_notifier.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/timer.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/host-utils.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/graph-lock.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/io/task.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/sockets.h \
  qapi/qapi-types-sockets.h \
- /home/Antonello/Desktop/CAOS/include/io/channel-tls.h \
- /home/Antonello/Desktop/CAOS/include/io/net-listener.h \
- /home/Antonello/Desktop/CAOS/include/authz/base.h \
- /home/Antonello/Desktop/CAOS/include/qapi/error.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/io/channel-tls.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/io/net-listener.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/authz/base.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/error.h \
  qapi/qapi-types-error.h /usr/include/zlib.h /usr/include/zconf.h \
- ../ui/keymaps.h /home/Antonello/Desktop/CAOS/include/ui/kbd-state.h \
+ ../ui/keymaps.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/ui/kbd-state.h \
  ../ui/vnc-palette.h ../ui/vnc-enc-zrle.h ../ui/vnc-auth-vencrypt.h \
  ../ui/vnc-ws.h ../ui/vnc-jobs.h ../ui/trace.h trace/trace-ui.h \
- /home/Antonello/Desktop/CAOS/trace/control.h \
- /home/Antonello/Desktop/CAOS/trace/event-internal.h \
- /home/Antonello/Desktop/CAOS/trace/control-internal.h \
- /home/Antonello/Desktop/CAOS/include/qemu/log-for-trace.h \
- /home/Antonello/Desktop/CAOS/include/qemu/error-report.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/sysemu.h \
- /home/Antonello/Desktop/CAOS/include/qemu/uuid.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/runstate.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/trace/control.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/trace/event-internal.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/trace/control-internal.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/log-for-trace.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/error-report.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/sysemu.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/uuid.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/runstate.h \
  qapi/qapi-types-run-state.h \
- /home/Antonello/Desktop/CAOS/include/qemu/main-loop.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/event-loop-base.h \
- /home/Antonello/Desktop/CAOS/include/qemu/option.h \
- /home/Antonello/Desktop/CAOS/include/authz/list.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/main-loop.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/event-loop-base.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/option.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/authz/list.h \
  qapi/qapi-types-authz.h \
- /home/Antonello/Desktop/CAOS/include/qemu/config-file.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/config-file.h \
  qapi/qapi-emit-events.h qapi/qapi-events-ui.h qapi/qapi-events-common.h \
  qapi/qapi-events-sockets.h qapi/qapi-types-ui.h qapi/qapi-commands-ui.h \
  qapi/qapi-commands-common.h qapi/qapi-commands-sockets.h \
- /home/Antonello/Desktop/CAOS/include/ui/input.h \
- /home/Antonello/Desktop/CAOS/include/crypto/hash.h \
- /home/Antonello/Desktop/CAOS/include/crypto/tlscredsanon.h \
- /home/Antonello/Desktop/CAOS/include/crypto/tlscredsx509.h \
- /home/Antonello/Desktop/CAOS/include/crypto/random.h \
- /home/Antonello/Desktop/CAOS/include/crypto/secret_common.h \
- /home/Antonello/Desktop/CAOS/include/qom/object_interfaces.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/ui/input.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/crypto/hash.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/crypto/tlscredsanon.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/crypto/tlscredsx509.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/crypto/random.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/crypto/secret_common.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qom/object_interfaces.h \
  qapi/qapi-types-qom.h qapi/qapi-types-authz.h \
  qapi/qapi-types-block-core.h qapi/qapi-types-crypto.h \
  qapi/qapi-types-job.h \
- /home/Antonello/Desktop/CAOS/include/qapi/visitor.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/visitor.h \
  qapi/qapi-types-compat.h \
- /home/Antonello/Desktop/CAOS/include/qemu/cutils.h \
- /home/Antonello/Desktop/CAOS/include/qemu/help_option.h \
- /home/Antonello/Desktop/CAOS/include/io/dns-resolver.h \
- /home/Antonello/Desktop/CAOS/include/monitor/monitor.h \
- /home/Antonello/Desktop/CAOS/include/block/block.h \
- /home/Antonello/Desktop/CAOS/include/block/block-global-state.h \
- /home/Antonello/Desktop/CAOS/include/block/block-common.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/cutils.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/help_option.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/io/dns-resolver.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/monitor/monitor.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/block.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/block-global-state.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/block-common.h \
  qapi/qapi-types-block-core.h \
- /home/Antonello/Desktop/CAOS/include/block/blockjob.h \
- /home/Antonello/Desktop/CAOS/include/qemu/job.h qapi/qapi-types-job.h \
- /home/Antonello/Desktop/CAOS/include/qemu/progress_meter.h \
- /home/Antonello/Desktop/CAOS/include/qemu/coroutine.h \
- /home/Antonello/Desktop/CAOS/include/qemu/lockable.h \
- /home/Antonello/Desktop/CAOS/include/qemu/ratelimit.h \
- /home/Antonello/Desktop/CAOS/include/qemu/transactions.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/blockjob.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/job.h \
+ qapi/qapi-types-job.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/progress_meter.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/coroutine.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/lockable.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/ratelimit.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/transactions.h \
  /usr/include/glib-2.0/gmodule.h \
  /usr/include/glib-2.0/gmodule/gmodule-visibility.h \
- /home/Antonello/Desktop/CAOS/include/block/block-io.h \
- /home/Antonello/Desktop/CAOS/include/block/aio-wait.h \
- /home/Antonello/Desktop/CAOS/include/qemu/iov.h qapi/qapi-types-misc.h \
- /home/Antonello/Desktop/CAOS/include/qemu/readline.h \
- /home/Antonello/Desktop/CAOS/include/exec/hwaddr.h ../ui/vnc_keysym.h \
- /home/Antonello/Desktop/CAOS/include/crypto/cipher.h
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/block-io.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/aio-wait.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/iov.h \
+ qapi/qapi-types-misc.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/readline.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/exec/hwaddr.h \
+ ../ui/vnc_keysym.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/crypto/cipher.h

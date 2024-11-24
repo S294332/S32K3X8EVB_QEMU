@@ -31,4 +31,4 @@ unset STRIP
 unset WIDL
 unset WINDRES
 unset WINDMC
-exec '/home/Antonello/Desktop/CAOS/configure' '--target-list=nxp-softmmu' "$@"
+exec '/home/Antonello/Desktop/S32K3X8EVB_QEMU/configure' '--target-list=nxp-softmmu' "$@"

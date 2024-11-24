@@ -1,8 +1,10 @@
 tests/qtest/qos-test.p/isl_pmbus_vr-test.c.o: \
  ../tests/qtest/isl_pmbus_vr-test.c /usr/include/stdc-predef.h \
- /home/Antonello/Desktop/CAOS/include/qemu/osdep.h config-host.h \
- /home/Antonello/Desktop/CAOS/include/exec/poison.h config-poison.h \
- /home/Antonello/Desktop/CAOS/include/qemu/compiler.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/osdep.h \
+ config-host.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/exec/poison.h \
+ config-poison.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
@@ -109,9 +111,9 @@ tests/qtest/qos-test.p/isl_pmbus_vr-test.c.o: \
  /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  linux-headers/asm/bitsperlong.h \
- /home/Antonello/Desktop/CAOS/linux-headers/asm-generic/bitsperlong.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/linux-headers/asm-generic/bitsperlong.h \
  /usr/include/linux/posix_types.h \
- /home/Antonello/Desktop/CAOS/linux-headers/linux/stddef.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/linux-headers/linux/stddef.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h \
@@ -147,7 +149,7 @@ tests/qtest/qos-test.p/isl_pmbus_vr-test.c.o: \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h \
  /usr/include/x86_64-linux-gnu/bits/types/idtype_t.h \
- /home/Antonello/Desktop/CAOS/include/glib-compat.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/glib-compat.h \
  /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
  /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
@@ -229,7 +231,7 @@ tests/qtest/qos-test.p/isl_pmbus_vr-test.c.o: \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
  /usr/include/glib-2.0/glib-unix.h /usr/include/glib-2.0/glib/gstdio.h \
  /usr/include/glib-2.0/glib/gprintf.h /usr/include/pwd.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/os-posix.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/os-posix.h \
  /usr/include/x86_64-linux-gnu/sys/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
@@ -252,8 +254,8 @@ tests/qtest/qos-test.p/isl_pmbus_vr-test.c.o: \
  /usr/include/x86_64-linux-gnu/sys/un.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
- /home/Antonello/Desktop/CAOS/include/qemu/typedefs.h /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/typedefs.h \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
@@ -262,44 +264,44 @@ tests/qtest/qos-test.p/isl_pmbus_vr-test.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/Antonello/Desktop/CAOS/include/hw/i2c/pmbus_device.h \
- /home/Antonello/Desktop/CAOS/include/qemu/bitops.h \
- /home/Antonello/Desktop/CAOS/include/qemu/host-utils.h \
- /home/Antonello/Desktop/CAOS/include/qemu/bswap.h \
- /home/Antonello/Desktop/CAOS/include/qemu/int128.h \
- /home/Antonello/Desktop/CAOS/include/qemu/atomic.h \
- /home/Antonello/Desktop/CAOS/include/qemu/compiler.h \
- /home/Antonello/Desktop/CAOS/include/hw/i2c/smbus_slave.h \
- /home/Antonello/Desktop/CAOS/include/hw/i2c/i2c.h \
- /home/Antonello/Desktop/CAOS/include/hw/qdev-core.h \
- /home/Antonello/Desktop/CAOS/include/qemu/queue.h \
- /home/Antonello/Desktop/CAOS/include/qemu/bitmap.h \
- /home/Antonello/Desktop/CAOS/include/qemu/rcu.h \
- /home/Antonello/Desktop/CAOS/include/qemu/thread.h \
- /home/Antonello/Desktop/CAOS/include/qemu/processor.h \
- /home/Antonello/Desktop/CAOS/include/qemu/atomic.h \
- /home/Antonello/Desktop/CAOS/include/qemu/clang-tsa.h \
- /home/Antonello/Desktop/CAOS/include/qemu/thread-posix.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/i2c/pmbus_device.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/bitops.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/host-utils.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/bswap.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/int128.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/atomic.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/compiler.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/i2c/smbus_slave.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/i2c/i2c.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/qdev-core.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/queue.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/bitmap.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/rcu.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/thread.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/processor.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/atomic.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/clang-tsa.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/thread-posix.h \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /home/Antonello/Desktop/CAOS/include/qemu/qsp.h \
- /home/Antonello/Desktop/CAOS/include/qemu/notify.h \
- /home/Antonello/Desktop/CAOS/include/qemu/sys_membarrier.h \
- /home/Antonello/Desktop/CAOS/include/qemu/coroutine-tls.h \
- /home/Antonello/Desktop/CAOS/include/qemu/rcu_queue.h \
- /home/Antonello/Desktop/CAOS/include/qom/object.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/qsp.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/notify.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/sys_membarrier.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/coroutine-tls.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/rcu_queue.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qom/object.h \
  qapi/qapi-builtin-types.h \
- /home/Antonello/Desktop/CAOS/include/qapi/util.h \
- /home/Antonello/Desktop/CAOS/include/qemu/module.h \
- /home/Antonello/Desktop/CAOS/include/hw/hotplug.h \
- /home/Antonello/Desktop/CAOS/include/hw/resettable.h \
- /home/Antonello/Desktop/CAOS/include/hw/sensor/isl_pmbus_vr.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/util.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/module.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/hotplug.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/resettable.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/sensor/isl_pmbus_vr.h \
  ../tests/qtest/libqtest-single.h ../tests/qtest/libqtest.h \
- /home/Antonello/Desktop/CAOS/include/qapi/qmp/qobject.h \
- /home/Antonello/Desktop/CAOS/include/qapi/qmp/qdict.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/qmp/qobject.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/qmp/qdict.h \
  ../tests/qtest/libqmp.h ../tests/qtest/libqos/qgraph.h \
  /usr/include/glib-2.0/gmodule.h \
  /usr/include/glib-2.0/gmodule/gmodule-visibility.h \
  ../tests/qtest/libqos/libqos-malloc.h \
  ../tests/qtest/libqos/../libqtest.h ../tests/qtest/libqos/i2c.h \
  ../tests/qtest/libqos/qgraph.h \
- /home/Antonello/Desktop/CAOS/include/qapi/qmp/qnum.h
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/qmp/qnum.h

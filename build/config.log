@@ -1,5 +1,5 @@
-# QEMU configure log Sat Nov 23 05:14:50 PM CET 2024
-# Configured with: '/home/Antonello/Desktop/CAOS/configure' '--target-list=nxp-softmmu'
+# QEMU configure log Sun Nov 24 11:33:21 AM CET 2024
+# Configured with: '/home/Antonello/Desktop/S32K3X8EVB_QEMU/configure' '--target-list=nxp-softmmu'
 
 #
 cc -std=gnu11 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c

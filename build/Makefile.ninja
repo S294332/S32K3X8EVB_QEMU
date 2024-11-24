@@ -2386,7 +2386,7 @@ tests/unit/test-uuid.p/test-uuid.c.o \
 tests/unit/test-uuid \
 tests/unit/ptimer-test.p/ptimer-test.c.o \
 tests/unit/ptimer-test.p/ptimer-test-stubs.c.o \
-tests/unit/ptimer-test.p/_home_Antonello_Desktop_CAOS_hw_core_ptimer.c.o \
+tests/unit/ptimer-test.p/_home_Antonello_Desktop_S32K3X8EVB_QEMU_hw_core_ptimer.c.o \
 tests/unit/ptimer-test \
 tests/unit/test-qapi-util.p/test-qapi-util.c.o \
 tests/unit/test-qapi-util \
@@ -2502,7 +2502,7 @@ tests/unit/test-base64 \
 tests/unit/test-bufferiszero.p/test-bufferiszero.c.o \
 tests/unit/test-bufferiszero \
 tests/unit/test-smp-parse.p/test-smp-parse.c.o \
-tests/unit/test-smp-parse.p/_home_Antonello_Desktop_CAOS_hw_core_machine-smp.c.o \
+tests/unit/test-smp-parse.p/_home_Antonello_Desktop_S32K3X8EVB_QEMU_hw_core_machine-smp.c.o \
 tests/unit/test-smp-parse \
 tests/unit/test-vmstate.p/test-vmstate.c.o \
 tests/unit/test-vmstate \
@@ -2615,10 +2615,10 @@ reconfigure \
 ../meson.build \
 ../meson_options.txt \
 ../VERSION \
-/home/Antonello/Desktop/CAOS/build/config-host.mak \
+/home/Antonello/Desktop/S32K3X8EVB_QEMU/build/config-host.mak \
 ../scripts/main.c \
 ../scripts/xen-detect.c \
-/home/Antonello/Desktop/CAOS/configs/targets/nxp-softmmu.mak \
+/home/Antonello/Desktop/S32K3X8EVB_QEMU/configs/targets/nxp-softmmu.mak \
 ../configs/devices/nxp-softmmu/default.mak \
 ../Kconfig \
 ../scripts/minikconf.py \
@@ -2912,16 +2912,16 @@ reconfigure \
 ../tests/qapi-schema/meson.build \
 ../tests/qtest/meson.build \
 ../tests/migration/meson.build \
-/home/Antonello/Desktop/CAOS/build/config-meson.cross \
+/home/Antonello/Desktop/S32K3X8EVB_QEMU/build/config-meson.cross \
 meson-private/coredata.dat
 build-files = \
     ../meson.build \
     ../meson_options.txt \
     ../VERSION \
-    /home/Antonello/Desktop/CAOS/build/config-host.mak \
+    /home/Antonello/Desktop/S32K3X8EVB_QEMU/build/config-host.mak \
     ../scripts/main.c \
     ../scripts/xen-detect.c \
-    /home/Antonello/Desktop/CAOS/configs/targets/nxp-softmmu.mak \
+    /home/Antonello/Desktop/S32K3X8EVB_QEMU/configs/targets/nxp-softmmu.mak \
     ../configs/devices/nxp-softmmu/default.mak \
     ../Kconfig \
     ../scripts/minikconf.py \
@@ -3215,5 +3215,5 @@ build-files = \
     ../tests/qapi-schema/meson.build \
     ../tests/qtest/meson.build \
     ../tests/migration/meson.build \
-    /home/Antonello/Desktop/CAOS/build/config-meson.cross \
+    /home/Antonello/Desktop/S32K3X8EVB_QEMU/build/config-meson.cross \
     meson-private/coredata.dat \

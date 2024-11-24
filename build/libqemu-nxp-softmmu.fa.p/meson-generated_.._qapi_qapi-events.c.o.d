@@ -1,8 +1,8 @@
 libqemu-nxp-softmmu.fa.p/meson-generated_.._qapi_qapi-events.c.o: \
  qapi/qapi-events.c /usr/include/stdc-predef.h \
- /home/Antonello/Desktop/CAOS/include/qemu/osdep.h config-host.h \
- nxp-softmmu-config-target.h \
- /home/Antonello/Desktop/CAOS/include/qemu/compiler.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/osdep.h \
+ config-host.h nxp-softmmu-config-target.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
@@ -109,9 +109,9 @@ libqemu-nxp-softmmu.fa.p/meson-generated_.._qapi_qapi-events.c.o: \
  /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  linux-headers/asm/bitsperlong.h \
- /home/Antonello/Desktop/CAOS/linux-headers/asm-generic/bitsperlong.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/linux-headers/asm-generic/bitsperlong.h \
  /usr/include/linux/posix_types.h \
- /home/Antonello/Desktop/CAOS/linux-headers/linux/stddef.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/linux-headers/linux/stddef.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h \
@@ -147,7 +147,7 @@ libqemu-nxp-softmmu.fa.p/meson-generated_.._qapi_qapi-events.c.o: \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h \
  /usr/include/x86_64-linux-gnu/bits/types/idtype_t.h \
- /home/Antonello/Desktop/CAOS/include/glib-compat.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/glib-compat.h \
  /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
  /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
@@ -229,7 +229,7 @@ libqemu-nxp-softmmu.fa.p/meson-generated_.._qapi_qapi-events.c.o: \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
  /usr/include/glib-2.0/glib-unix.h /usr/include/glib-2.0/glib/gstdio.h \
  /usr/include/glib-2.0/glib/gprintf.h /usr/include/pwd.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/os-posix.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/os-posix.h \
  /usr/include/x86_64-linux-gnu/sys/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
@@ -252,8 +252,9 @@ libqemu-nxp-softmmu.fa.p/meson-generated_.._qapi_qapi-events.c.o: \
  /usr/include/x86_64-linux-gnu/sys/un.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
- /home/Antonello/Desktop/CAOS/include/qemu/typedefs.h \
- qapi/qapi-emit-events.h /home/Antonello/Desktop/CAOS/include/qapi/util.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/typedefs.h \
+ qapi/qapi-emit-events.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/util.h \
  qapi/qapi-events.h qapi/qapi-events-pragma.h qapi/qapi-types-pragma.h \
  qapi/qapi-builtin-types.h qapi/qapi-events-error.h \
  qapi/qapi-types-error.h qapi/qapi-events-common.h \
@@ -289,7 +290,7 @@ libqemu-nxp-softmmu.fa.p/meson-generated_.._qapi_qapi-events.c.o: \
  qapi/qapi-types-virtio.h qapi/qapi-events-cryptodev.h \
  qapi/qapi-types-cryptodev.h qapi/qapi-events-cxl.h qapi/qapi-types-cxl.h \
  qapi/qapi-types.h qapi/qapi-visit.h qapi/qapi-builtin-visit.h \
- /home/Antonello/Desktop/CAOS/include/qapi/visitor.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/visitor.h \
  qapi/qapi-types-compat.h qapi/qapi-visit-pragma.h \
  qapi/qapi-visit-error.h qapi/qapi-visit-common.h \
  qapi/qapi-visit-sockets.h qapi/qapi-visit-run-state.h \
@@ -308,10 +309,10 @@ libqemu-nxp-softmmu.fa.p/meson-generated_.._qapi_qapi-events.c.o: \
  qapi/qapi-visit-acpi.h qapi/qapi-visit-pci.h qapi/qapi-visit-stats.h \
  qapi/qapi-visit-virtio.h qapi/qapi-visit-cryptodev.h \
  qapi/qapi-visit-cxl.h \
- /home/Antonello/Desktop/CAOS/include/qapi/compat-policy.h \
- /home/Antonello/Desktop/CAOS/include/qapi/error.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/compat-policy.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/error.h \
  qapi/qapi-types-error.h \
- /home/Antonello/Desktop/CAOS/include/qapi/qmp/qdict.h \
- /home/Antonello/Desktop/CAOS/include/qapi/qmp/qobject.h \
- /home/Antonello/Desktop/CAOS/include/qemu/queue.h \
- /home/Antonello/Desktop/CAOS/include/qapi/qmp-event.h
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/qmp/qdict.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/qmp/qobject.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/queue.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/qmp-event.h

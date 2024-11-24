@@ -1,8 +1,10 @@
 libcommon.fa.p/migration_colo.c.o: ../migration/colo.c \
  /usr/include/stdc-predef.h \
- /home/Antonello/Desktop/CAOS/include/qemu/osdep.h config-host.h \
- /home/Antonello/Desktop/CAOS/include/exec/poison.h config-poison.h \
- /home/Antonello/Desktop/CAOS/include/qemu/compiler.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/osdep.h \
+ config-host.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/exec/poison.h \
+ config-poison.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/compiler.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
@@ -109,9 +111,9 @@ libcommon.fa.p/migration_colo.c.o: ../migration/colo.c \
  /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  linux-headers/asm/bitsperlong.h \
- /home/Antonello/Desktop/CAOS/linux-headers/asm-generic/bitsperlong.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/linux-headers/asm-generic/bitsperlong.h \
  /usr/include/linux/posix_types.h \
- /home/Antonello/Desktop/CAOS/linux-headers/linux/stddef.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/linux-headers/linux/stddef.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h \
@@ -147,7 +149,7 @@ libcommon.fa.p/migration_colo.c.o: ../migration/colo.c \
  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h \
  /usr/include/x86_64-linux-gnu/bits/types/idtype_t.h \
- /home/Antonello/Desktop/CAOS/include/glib-compat.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/glib-compat.h \
  /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
  /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
@@ -229,7 +231,7 @@ libcommon.fa.p/migration_colo.c.o: ../migration/colo.c \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
  /usr/include/glib-2.0/glib-unix.h /usr/include/glib-2.0/glib/gstdio.h \
  /usr/include/glib-2.0/glib/gprintf.h /usr/include/pwd.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/os-posix.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/os-posix.h \
  /usr/include/x86_64-linux-gnu/sys/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
@@ -252,105 +254,108 @@ libcommon.fa.p/migration_colo.c.o: ../migration/colo.c \
  /usr/include/x86_64-linux-gnu/sys/un.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
- /home/Antonello/Desktop/CAOS/include/qemu/typedefs.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/sysemu.h \
- /home/Antonello/Desktop/CAOS/include/qemu/timer.h \
- /home/Antonello/Desktop/CAOS/include/qemu/bitops.h \
- /home/Antonello/Desktop/CAOS/include/qemu/host-utils.h \
- /home/Antonello/Desktop/CAOS/include/qemu/bswap.h \
- /home/Antonello/Desktop/CAOS/include/qemu/int128.h \
- /home/Antonello/Desktop/CAOS/include/qemu/atomic.h \
- /home/Antonello/Desktop/CAOS/include/qemu/compiler.h \
- /home/Antonello/Desktop/CAOS/include/qemu/notify.h \
- /home/Antonello/Desktop/CAOS/include/qemu/queue.h \
- /home/Antonello/Desktop/CAOS/include/qemu/host-utils.h \
- /home/Antonello/Desktop/CAOS/include/qemu/uuid.h \
- /home/Antonello/Desktop/CAOS/include/qapi/error.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/typedefs.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/sysemu.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/timer.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/bitops.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/host-utils.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/bswap.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/int128.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/atomic.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/compiler.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/notify.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/queue.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/host-utils.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/uuid.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/error.h \
  qapi/qapi-types-error.h qapi/qapi-builtin-types.h \
- /home/Antonello/Desktop/CAOS/include/qapi/util.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/util.h \
  qapi/qapi-commands-migration.h qapi/qapi-commands-common.h \
  qapi/qapi-types-common.h qapi/qapi-commands-sockets.h \
  qapi/qapi-types-sockets.h qapi/qapi-types-migration.h \
  ../migration/migration.h \
- /home/Antonello/Desktop/CAOS/include/exec/cpu-common.h \
- /home/Antonello/Desktop/CAOS/include/exec/hwaddr.h \
- /home/Antonello/Desktop/CAOS/include/hw/qdev-core.h \
- /home/Antonello/Desktop/CAOS/include/qemu/bitmap.h \
- /home/Antonello/Desktop/CAOS/include/qemu/rcu.h \
- /home/Antonello/Desktop/CAOS/include/qemu/thread.h \
- /home/Antonello/Desktop/CAOS/include/qemu/processor.h \
- /home/Antonello/Desktop/CAOS/include/qemu/atomic.h \
- /home/Antonello/Desktop/CAOS/include/qemu/clang-tsa.h \
- /home/Antonello/Desktop/CAOS/include/qemu/thread-posix.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/exec/cpu-common.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/exec/hwaddr.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/qdev-core.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/bitmap.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/rcu.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/thread.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/processor.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/atomic.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/clang-tsa.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/thread-posix.h \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /home/Antonello/Desktop/CAOS/include/qemu/qsp.h \
- /home/Antonello/Desktop/CAOS/include/qemu/sys_membarrier.h \
- /home/Antonello/Desktop/CAOS/include/qemu/coroutine-tls.h \
- /home/Antonello/Desktop/CAOS/include/qemu/rcu_queue.h \
- /home/Antonello/Desktop/CAOS/include/qom/object.h \
- /home/Antonello/Desktop/CAOS/include/qemu/module.h \
- /home/Antonello/Desktop/CAOS/include/hw/hotplug.h \
- /home/Antonello/Desktop/CAOS/include/hw/resettable.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/qsp.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/sys_membarrier.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/coroutine-tls.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/rcu_queue.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qom/object.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/module.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/hotplug.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/resettable.h \
  qapi/qapi-types-migration.h \
- /home/Antonello/Desktop/CAOS/include/qapi/qmp/json-writer.h \
- /home/Antonello/Desktop/CAOS/include/qemu/coroutine_int.h \
- /home/Antonello/Desktop/CAOS/include/qemu/coroutine.h \
- /home/Antonello/Desktop/CAOS/include/qemu/coroutine-core.h \
- /home/Antonello/Desktop/CAOS/include/qemu/lockable.h \
- /home/Antonello/Desktop/CAOS/include/io/channel.h \
- /home/Antonello/Desktop/CAOS/include/block/aio.h \
- /home/Antonello/Desktop/CAOS/include/qemu/event_notifier.h \
- /home/Antonello/Desktop/CAOS/include/block/graph-lock.h \
- /home/Antonello/Desktop/CAOS/include/io/channel-buffer.h \
- /home/Antonello/Desktop/CAOS/include/net/announce.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qapi/qmp/json-writer.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/coroutine_int.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/coroutine.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/coroutine-core.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/lockable.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/io/channel.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/aio.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/event_notifier.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/graph-lock.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/io/channel-buffer.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/net/announce.h \
  qapi/qapi-types-net.h ../migration/postcopy-ram.h \
  ../migration/qemu-file.h /usr/include/zlib.h /usr/include/zconf.h \
- /home/Antonello/Desktop/CAOS/include/migration/qemu-file-types.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/migration/qemu-file-types.h \
  ../migration/savevm.h \
- /home/Antonello/Desktop/CAOS/include/migration/colo.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/migration/colo.h \
  ../migration/block.h ../migration/trace.h trace/trace-migration.h \
- /home/Antonello/Desktop/CAOS/trace/control.h \
- /home/Antonello/Desktop/CAOS/trace/event-internal.h \
- /home/Antonello/Desktop/CAOS/trace/control-internal.h \
- /home/Antonello/Desktop/CAOS/include/qemu/log-for-trace.h \
- /home/Antonello/Desktop/CAOS/include/qemu/error-report.h \
- /home/Antonello/Desktop/CAOS/include/qemu/main-loop.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/event-loop-base.h \
- /home/Antonello/Desktop/CAOS/include/migration/failover.h \
- /home/Antonello/Desktop/CAOS/migration/ram.h \
- /home/Antonello/Desktop/CAOS/include/qemu/stats64.h \
- /home/Antonello/Desktop/CAOS/include/block/replication.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/trace/control.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/trace/event-internal.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/trace/control-internal.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/log-for-trace.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/error-report.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/main-loop.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/event-loop-base.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/migration/failover.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/migration/ram.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/stats64.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/replication.h \
  qapi/qapi-types-block-core.h qapi/qapi-types-crypto.h \
- qapi/qapi-types-job.h /home/Antonello/Desktop/CAOS/net/colo-compare.h \
- /home/Antonello/Desktop/CAOS/net/colo.h \
- /home/Antonello/Desktop/CAOS/include/qemu/jhash.h \
- /home/Antonello/Desktop/CAOS/include/net/eth.h \
- /home/Antonello/Desktop/CAOS/include/qemu/iov.h \
- /home/Antonello/Desktop/CAOS/include/standard-headers/linux/virtio_net.h \
- /home/Antonello/Desktop/CAOS/include/standard-headers/linux/types.h \
- /home/Antonello/Desktop/CAOS/include/standard-headers/linux/virtio_ids.h \
- /home/Antonello/Desktop/CAOS/include/standard-headers/linux/virtio_config.h \
- /home/Antonello/Desktop/CAOS/include/standard-headers/linux/virtio_types.h \
- /home/Antonello/Desktop/CAOS/include/standard-headers/linux/if_ether.h \
- /home/Antonello/Desktop/CAOS/include/block/block.h \
- /home/Antonello/Desktop/CAOS/include/block/block-global-state.h \
- /home/Antonello/Desktop/CAOS/include/block/block-common.h \
- /home/Antonello/Desktop/CAOS/include/block/blockjob.h \
- /home/Antonello/Desktop/CAOS/include/qemu/job.h qapi/qapi-types-job.h \
- /home/Antonello/Desktop/CAOS/include/qemu/progress_meter.h \
- /home/Antonello/Desktop/CAOS/include/qemu/ratelimit.h \
- /home/Antonello/Desktop/CAOS/include/qemu/transactions.h \
+ qapi/qapi-types-job.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/net/colo-compare.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/net/colo.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/jhash.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/net/eth.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/iov.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/standard-headers/linux/virtio_net.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/standard-headers/linux/types.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/standard-headers/linux/virtio_ids.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/standard-headers/linux/virtio_config.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/standard-headers/linux/virtio_types.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/standard-headers/linux/if_ether.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/block.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/block-global-state.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/block-common.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/blockjob.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/job.h \
+ qapi/qapi-types-job.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/progress_meter.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/ratelimit.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/qemu/transactions.h \
  /usr/include/glib-2.0/gmodule.h \
  /usr/include/glib-2.0/gmodule/gmodule-visibility.h \
- /home/Antonello/Desktop/CAOS/include/block/block-io.h \
- /home/Antonello/Desktop/CAOS/include/block/aio-wait.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/block-io.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/block/aio-wait.h \
  qapi/qapi-events-migration.h qapi/qapi-events-common.h \
  qapi/qapi-events-sockets.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/cpus.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/accel-ops.h \
- /home/Antonello/Desktop/CAOS/include/sysemu/runstate.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/cpus.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/accel-ops.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/sysemu/runstate.h \
  qapi/qapi-types-run-state.h \
- /home/Antonello/Desktop/CAOS/include/net/filter.h \
- /home/Antonello/Desktop/CAOS/include/net/queue.h ../migration/options.h \
- /home/Antonello/Desktop/CAOS/include/hw/qdev-properties.h \
- /home/Antonello/Desktop/CAOS/include/hw/qdev-properties-system.h
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/net/filter.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/net/queue.h \
+ ../migration/options.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/qdev-properties.h \
+ /home/Antonello/Desktop/S32K3X8EVB_QEMU/include/hw/qdev-properties-system.h
