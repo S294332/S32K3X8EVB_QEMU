@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "osdep.h": "c",
+        "loader.h": "c",
+        "elf.h": "c",
+        "tcg-cpu-ops.h": "c",
+        "string.h": "c",
+        "datadir.h": "c"
+    }
+}
